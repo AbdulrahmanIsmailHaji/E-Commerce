@@ -1,4 +1,3 @@
-import Navbar from "./Component/NavBar/Navbar";
 import {
   Route,
   createBrowserRouter,
