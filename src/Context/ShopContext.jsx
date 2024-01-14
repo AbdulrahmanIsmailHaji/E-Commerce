@@ -13,7 +13,6 @@ const getDefaultValue = () => {
 
 const ShopContextProvider = (props) => {
   const [cartItem, setCartItem] = useState(getDefaultValue());
-  console.log(cartItem);
 
   const addToCart = (itemId) => {
     setCartItem((prev) => ({ ...prev, [itemId]: prev[itemId] + 1 }));
