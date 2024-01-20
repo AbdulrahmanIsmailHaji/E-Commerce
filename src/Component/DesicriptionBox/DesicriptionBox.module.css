@@ -26,3 +26,18 @@
   padding: 48px;
   padding-bottom: 70px;
 }
+
+@media (min-width: 1280px) {
+  .desicriptionBox {
+    margin: 60px;
+  }
+}
+
+@media (min-width: 800px) {
+  .desicriptionBox {
+    margin: 60px 20px;
+  }
+  .desicriptionBox-desicription {
+    font-size: 24px;
+  }
+}

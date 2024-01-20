@@ -51,3 +51,101 @@
   font-style: 16px;
   cursor: pointer;
 }
+
+@media (max-width: 1280px) {
+  .newsLetter {
+    padding: 0 80px;
+    margin-bottom: 120px;
+    gap: 20px;
+  }
+  .newsLetter h1 {
+    font-size: 36px;
+  }
+  .newsLetter p {
+    font-size: 16px;
+  }
+  .newsLetter div {
+    width: 600px;
+    height: 60px;
+  }
+  .newsLetter input {
+    width: 400px;
+  }
+  .newsLetter div button {
+    width: 16px;
+    height: 60px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .newsLetter {
+    margin-bottom: 60px;
+  }
+  .newsLetter h1 {
+    font-size: 30px;
+  }
+  .newsLetter p {
+    font-size: 14px;
+  }
+  .newsLetter div {
+    width: 500px;
+    height: 50px;
+  }
+  .newsLetter input {
+    width: 300px;
+  }
+  .newsLetter div button {
+    width: 120px;
+    height: 50px;
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 800px) {
+  .newsLetter {
+    margin-bottom: 30px;
+    height: 35vh;
+  }
+  .newsLetter h1 {
+    font-size: 18px;
+  }
+  .newsLetter p {
+    font-size: 14px;
+  }
+  .newsLetter div {
+    width: 400px;
+    height: 40px;
+  }
+  .newsLetter input {
+    width: 200px;
+    font-size: 13px;
+  }
+  .newsLetter div button {
+    width: 100px;
+    height: 40px;
+    font-size: 13px;
+  }
+}
+
+@media (max-width: 700px) {
+  .newsLetter {
+    height: 25vh;
+    width: 100%;
+    padding: 0;
+    gap: 15px;
+  }
+  .newsLetter h1 {
+    font-size: 16px;
+  }
+  .newsLetter p {
+    font-size: 13px;
+    max-width: 200px;
+    text-align: center;
+  }
+  .newsLetter div {
+    width: 290px;
+  }
+  .newsLetter div input {
+    width: 130px;
+  }
+}

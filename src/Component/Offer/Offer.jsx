@@ -5,13 +5,13 @@ import exclusive_image from "../Assets/exclusive_image.png";
 const Offer = () => {
   return (
     <div className={styles.offer}>
-      <div className={styles["offer-right"]}>
+      <div className={styles["offer-left"]}>
         <h1>Exclusive</h1>
         <h1>Offer For You</h1>
         <p>ONLY ON BEST SELLER PRODUCT</p> {/* Typo fixed */}
         <button>Check Now</button>
       </div>
-      <div className={styles["offer-left"]}>
+      <div className={styles["offer-right"]}>
         {" "}
         {/* Class name corrected */}
         <img src={exclusive_image} alt="Exclusive Offer" />{" "}
