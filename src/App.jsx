@@ -17,8 +17,7 @@ import kid_banner from "./Component/Assets/banner_kids.png";
 function App() {
   const router = createBrowserRouter(
     createRoutesFromElements(
-      <Route path="/" element={<Layout />}>
-        <Route path="/shop" element={<Shop />} />
+      <Route path="/" element={<Shop />}>
         <Route
           path="/mens"
           element={<ShopCategory banner={men_banner} category="men" />}
